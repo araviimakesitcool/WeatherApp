@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('https://wallpapertag.com/wallpaper/full/b/7/e/118691-large-black-gradient-background-1920x1080.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.passwordBox{
+    width: 600px;
+    height: 700px;
+    background: linear-gradient(to right, #00cc00, #006600);
+    position: absolute;
+      top: 17%;
+      left: 30%;
+      padding: 10px;
+      border-radius: 25px;
+      border-color: aliceblue;
+      border: 10px solid rgba(255, 255, 255, 1);
+    
+}
+
+.formTitle{
+  width: 100%;
+  height: 25%;
+  color: #006600;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.formTitle h2 {
+    font-family: cursive;
+    font-size: clamp(2.3rem, 5vw, 4rem);
+    line-height: 1.3;
+    margin-bottom: 30px;
+    color: #f3e7d9;
+    pointer-events: none;
+}
+
